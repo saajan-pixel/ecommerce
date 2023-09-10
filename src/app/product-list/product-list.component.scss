@@ -1,0 +1,102 @@
+.bar {
+  height: 40px;
+  width: 100%;
+  padding: 14px 16px;
+  background-color: white;
+  padding: 0 20px;
+}
+
+.rating-badge {
+  background-color: #388e3c;
+  padding: 5px;
+  color: white;
+  font-weight: 500;
+  width: 60px;
+  border-radius: 5px;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+
+  i {
+    font-size: 12px;
+  }
+}
+
+.price {
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 500;
+  color: #212121;
+}
+
+.product-img {
+  max-height: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+::ng-deep .p-card {
+  font-family: "Poppins", sans-serif !important;
+}
+
+::ng-deep .p-card-title {
+  font-size: 1rem !important;
+  padding-top: 1em !important;
+  padding-left: 1em !important;
+  padding-right: 1em !important;
+}
+
+::ng-deep .p-card-body {
+  padding: 0 !important;
+}
+
+.discount {
+  text-decoration: line-through;
+  font-size: 14px;
+  color: #878787;
+
+  &-percentage {
+    color: #388e3c;
+    font-size: 13px;
+    letter-spacing: -0.2px;
+    font-weight: 500;
+  }
+}
+
+.p-1em {
+  padding: 1em !important;
+}
+
+.px-1em {
+  padding: 0 1em !important;
+}
+
+strong {
+  font-size: 12px;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+
+.results-not {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+.pagination {
+  background: white;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+
+  .page{
+    background: #eeeeee;
+    padding: 0 10px;
+    cursor: pointer;
+  }
+}
